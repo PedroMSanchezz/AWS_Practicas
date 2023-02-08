@@ -156,7 +156,15 @@ Tras su comprobación veremos si el balanceo de cargas se está ejecutando corre
 
 ![](prac4.3_img/Aspose.Words.92801e05-815d-4a61-88c2-aadcaba8b5b2.015.png)
 
+### **Cosas a tener en cuenta**
+Cuando apagamos las máquinas, el mount que teníamos creado se eliminará automáticamente y ya no tendremos el mount creado en los pasos anterior si lo miramos en el df -h
+![](prac4.3_img/Cosas_tener_en_cuenta1.jpg)
 
+Para automatizarlo y que se conecte directamente, debemos irnos al fichero y /etc/fstab y añadir una nueva línea.
+![](prac4.3_img/Cosas_tener_en_cuenta2.jpg)
+
+Reiniciamos la instancia y comprobamos que al reiniciarla, se añade directamente el mount que hemos añadido en el archivo anterior.
+![](prac4.3_img/Cosas_tener_en_cuenta3.jpg)
 
 ### **Webgrafía**
 
