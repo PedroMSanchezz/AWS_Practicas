@@ -109,6 +109,9 @@ Tras finalizar estos pasos, terminamos su instalación lanzando la instancia.
 
 ![](prac4.4_img/Aspose.Words.5d12734c-b637-4db7-a7a7-b073f5b01f3c.016.png)
 
+Nota: Para securizar, basta con eliminar la regla del puerto 22 (SSH)
+
+
 **Grupo de seguridad MySQL**
 
 ![](prac4.4_img/Aspose.Words.5d12734c-b637-4db7-a7a7-b073f5b01f3c.017.png)
